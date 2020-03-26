@@ -17,10 +17,22 @@
         outline-color: #555555;
         height: 70px;
       }
-      h3:first-child{
-        color: #555555;
+      .carousel-indicators li{
+        opacity: 1;
+        background-color:#ffffff;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        border: 1px solid #ffffff;
       }
-      h3:first-child::before{
+      .carousel-indicators .active{ 
+        background-color:#b81939;
+      }
+      h3{
+        color: #555555;
+        position: relative;
+      }
+      h3:nth-child(1)::before{
         left: 50%;
         margin: 0 0 0 -40px;
         bottom: 0;
@@ -31,6 +43,10 @@
         border-radius: 3px;
         position: absolute;
       }
+      .card {
+        /* padding: 15px; */
+      }
+      
     
     </style>
 
@@ -93,14 +109,6 @@
             <img src="https://5xruby.tw/assets/images/index/banner_5xruby/medium-31d58562.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
     </div>
     <div class="container">
         <div class="row">
@@ -118,31 +126,105 @@
         <div class="card col-3" style="width: 18rem;">
           <img src="https://5xruby.tw/assets/images/index/feature-list/feature-list-img1-0d20ab19.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h3 class="card-title"></h3>
+            <h3 class="card-title text-center">
+              xxxx
+              <br>
+              xxxxxx
+            </h3>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
         <div class="card col-3" style="width: 18rem;">
           <img src="https://5xruby.tw/assets/images/index/feature-list/feature-list-img2-26e4ca80.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h3 class="card-title"></h3>
+            <h3 class="card-title text-center">
+              xxxx
+              <br>
+              xxxxxx
+            </h3>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
         <div class="card col-3" style="width: 18rem;">
           <img src="https://5xruby.tw/assets/images/index/feature-list/feature-list-img3-d0a4089e.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h3 class="card-title"></h3>
+            <h3 class="card-title text-center">
+              xxxx
+              <br>
+              xxxxxx
+            </h3>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
         <div class="card col-3" style="width: 18rem;">
           <img src="https://5xruby.tw/assets/images/index/feature-list/feature-list-img4-13321bf0.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h3 class="card-title"></h3>
+            <h3 class="card-title text-center">
+              xxxx
+              <br>
+              xxxxxx
+            </h3>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 center-box">
+          <h3 class="text-center mb-5 mt-5 pb-4">
+            <!-- ::before -->
+            <span>xxxxxxxxxx</span>
+          </h3>
+        </div>
+          
+      </div>
+    </div>
+    <div class="wrap-card container">
+      <div class="row">
+        <div class="card col-4" style="width: 18rem;">
+          <img src="https://5xruby.tw/assets/images/index/feature-list/feature-list-img1-0d20ab19.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title text-center">
+              xxxx
+              <br>
+              xxxxxx
+            </h3>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <div class="card col-4" style="width: 18rem;">
+          <img src="https://5xruby.tw/assets/images/index/feature-list/feature-list-img2-26e4ca80.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title text-center">
+              xxxx
+              <br>
+              xxxxxx
+            </h3>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <div class="card col-4" style="width: 18rem;">
+          <img src="https://5xruby.tw/assets/images/index/feature-list/feature-list-img3-d0a4089e.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title text-center">
+              xxxx
+              <br>
+              xxxxxx
+            </h3>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="button-a col-12 center-box">
+          <button>
+
+          </button>
+        </div>
+          
       </div>
     </div>
 
